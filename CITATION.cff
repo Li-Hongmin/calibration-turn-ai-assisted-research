@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying preprint."
+title: "The Calibration Turn in AI-Assisted Research: A Conceptual and Methodological Framework for Evidence-Licensed Claims"
+authors:
+  - family-names: Li
+    given-names: Hongmin
+date-released: 2026-06-30
+repository-code: "https://github.com/Li-Hongmin/calibration-turn-ai-assisted-research"
+type: software

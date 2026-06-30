@@ -1,0 +1,43 @@
+domain,domain_label,route,route_label,route_domain_applicability
+biology,Biology,specialized_foundation_model,Specialized foundation model,0.82
+biology,Biology,llm_research_assistant,Human-led LLM assistant,0.78
+biology,Biology,multi_agent_coscientist,Multi-agent co-scientist,0.9
+biology,Biology,ai_scientist_pipeline,End-to-end AI scientist pipeline,0.6
+biology,Biology,algorithmic_math_agent,Algorithmic and mathematical discovery agent,0.22
+biology,Biology,self_driving_laboratory,Self-driving laboratory,0.84
+biology,Biology,hybrid_calibrated_loop,Hybrid-Cal loop,0.86
+materials,Materials,specialized_foundation_model,Specialized foundation model,0.88
+materials,Materials,llm_research_assistant,Human-led LLM assistant,0.6
+materials,Materials,multi_agent_coscientist,Multi-agent co-scientist,0.72
+materials,Materials,ai_scientist_pipeline,End-to-end AI scientist pipeline,0.56
+materials,Materials,algorithmic_math_agent,Algorithmic and mathematical discovery agent,0.34
+materials,Materials,self_driving_laboratory,Self-driving laboratory,0.92
+materials,Materials,hybrid_calibrated_loop,Hybrid-Cal loop,0.86
+machine_learning,Machine learning,specialized_foundation_model,Specialized foundation model,0.62
+machine_learning,Machine learning,llm_research_assistant,Human-led LLM assistant,0.72
+machine_learning,Machine learning,multi_agent_coscientist,Multi-agent co-scientist,0.66
+machine_learning,Machine learning,ai_scientist_pipeline,End-to-end AI scientist pipeline,0.86
+machine_learning,Machine learning,algorithmic_math_agent,Algorithmic and mathematical discovery agent,0.78
+machine_learning,Machine learning,self_driving_laboratory,Self-driving laboratory,0.2
+machine_learning,Machine learning,hybrid_calibrated_loop,Hybrid-Cal loop,0.82
+mathematics_algorithms,Mathematics and algorithms,specialized_foundation_model,Specialized foundation model,0.42
+mathematics_algorithms,Mathematics and algorithms,llm_research_assistant,Human-led LLM assistant,0.6
+mathematics_algorithms,Mathematics and algorithms,multi_agent_coscientist,Multi-agent co-scientist,0.55
+mathematics_algorithms,Mathematics and algorithms,ai_scientist_pipeline,End-to-end AI scientist pipeline,0.7
+mathematics_algorithms,Mathematics and algorithms,algorithmic_math_agent,Algorithmic and mathematical discovery agent,0.96
+mathematics_algorithms,Mathematics and algorithms,self_driving_laboratory,Self-driving laboratory,0.05
+mathematics_algorithms,Mathematics and algorithms,hybrid_calibrated_loop,Hybrid-Cal loop,0.82
+chemistry,Chemistry,specialized_foundation_model,Specialized foundation model,0.74
+chemistry,Chemistry,llm_research_assistant,Human-led LLM assistant,0.62
+chemistry,Chemistry,multi_agent_coscientist,Multi-agent co-scientist,0.72
+chemistry,Chemistry,ai_scientist_pipeline,End-to-end AI scientist pipeline,0.5
+chemistry,Chemistry,algorithmic_math_agent,Algorithmic and mathematical discovery agent,0.25
+chemistry,Chemistry,self_driving_laboratory,Self-driving laboratory,0.94
+chemistry,Chemistry,hybrid_calibrated_loop,Hybrid-Cal loop,0.84
+open_ended_problem_formulation,Open-ended problem formulation,specialized_foundation_model,Specialized foundation model,0.45
+open_ended_problem_formulation,Open-ended problem formulation,llm_research_assistant,Human-led LLM assistant,0.72
+open_ended_problem_formulation,Open-ended problem formulation,multi_agent_coscientist,Multi-agent co-scientist,0.66
+open_ended_problem_formulation,Open-ended problem formulation,ai_scientist_pipeline,End-to-end AI scientist pipeline,0.58
+open_ended_problem_formulation,Open-ended problem formulation,algorithmic_math_agent,Algorithmic and mathematical discovery agent,0.35
+open_ended_problem_formulation,Open-ended problem formulation,self_driving_laboratory,Self-driving laboratory,0.3
+open_ended_problem_formulation,Open-ended problem formulation,hybrid_calibrated_loop,Hybrid-Cal loop,0.6

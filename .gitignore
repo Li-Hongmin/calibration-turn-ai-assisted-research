@@ -1,0 +1,18 @@
+# Python caches
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# LaTeX build products
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.xdv
+
+# macOS
+.DS_Store

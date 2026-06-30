@@ -1,0 +1,28 @@
+name: reproduce
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  python-reproduction:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Run tests
+        run: python -m pytest -q
+      - name: Regenerate synthetic outputs
+        run: python -m simulation.run_route_simulation
+      - name: Check expected artifacts
+        run: |
+          test -s simulation/outputs/route_summary.csv
+          test -s simulation/outputs/scenario_rankings.csv
+          test -s simulation/outputs/yearly_route_metrics.csv
+          test -s simulation/outputs/simulation_config.json
+          test -s figures/route_licensed_utility.png
+          test -s figures/domain_score_landscape.png
